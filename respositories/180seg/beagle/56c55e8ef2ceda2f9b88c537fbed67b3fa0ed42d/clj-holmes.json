@@ -1,0 +1,17 @@
+[
+  {
+    "filename": "src/banana/engine.clj",
+    "findings": [
+      {
+        "row": 19,
+        "col": 12,
+        "end-row": 19,
+        "end-col": 32,
+        "parent": "banana.engine/cli",
+        "code": "(read-string policy)"
+      }
+    ],
+    "name": "Usage of clojure.core/read-string",
+    "message": "Usage of vulnerable function clojure.core/read-string. Attackers can exploit vulnerable deserialization functions which could lead to a remote code execution."
+  }
+]
